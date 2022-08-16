@@ -1,0 +1,91 @@
+body{
+    background-color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+*{
+    box-sizing: 0px;
+    margin: 0px;
+    border: 0px;
+}
+
+.countText h2{
+    font-size: xx-large;
+}
+
+.leftBtn{
+    height: 25px;
+    border: solid 2px black;
+    border-radius: 7px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.middleBtn{
+    height: 25px;
+    border: solid 2px black;
+    border-radius: 7px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-left: 100px;
+}
+
+.rightBtn{
+    height: 25px;
+    border: solid 2px black;
+    border-radius: 7px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-left: 172px;
+}
+
+.leftBtn:hover{
+    background-color: purple;
+    color: white;
+    cursor: pointer;
+    border: solid 2px yellow;
+}
+
+.middleBtn:hover{
+    background-color: crimson;
+    color: white;
+    cursor: pointer;
+    border: solid 2px cornflowerblue;
+}
+
+.rightBtn:hover{
+    background-color: mediumseagreen;
+    color: white;
+    cursor: pointer;
+    border: solid 2px yellow;
+}
+
+.left{
+    background-color: cornflowerblue;
+    width: 0px;
+    height: 0px;
+}
+
+.middle{
+    background-color: cornflowerblue;
+    width: 0px;
+    height: 0px;
+}
+
+.right{
+    background-color: cornflowerblue;
+    width: 0px;
+    height: 0px;
+}
+
+.main{
+    text-align: center;
+}
+
+.main{
+    margin-top: 25%;
+}
+
+.btns{
+    margin-left: 41%;
+}
